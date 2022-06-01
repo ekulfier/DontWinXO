@@ -6,8 +6,8 @@ import threading
 
 
 ####################  SOCKET  ###################
-serverip = '192.168.1.165'
-portUser = 2082
+serverip = 'yourip'
+portUser = xxxx // change xxxx to int initialize port
 
 server = socket.socket()            # สร้างตัวเชื่อม
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1) 
