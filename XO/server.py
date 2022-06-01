@@ -2,9 +2,9 @@
 
 import socket
 
-serverip = '192.168.1.165'
-portUser = 2082
-portBot = 2496
+serverip = 'yourip'
+portUser = xxxx // change xxxx to int initialize port
+portBot = xxxx // change xxxx to int initialize port
 
 
 serverUser = socket.socket()            # สร้าง socket
