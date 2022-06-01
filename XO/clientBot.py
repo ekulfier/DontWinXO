@@ -5,8 +5,8 @@ import socket
 
 
 ####################  SOCKET  ###################
-serverip = '192.168.1.165'
-portBot = 2496
+serverip = 'your ip server'
+portBot = xxxx // change xxxx to int initialize port
 
 server = socket.socket()            # สร้างตัวเชื่อม
 server.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR,1) 
